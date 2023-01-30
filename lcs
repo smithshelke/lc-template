@@ -9,8 +9,8 @@ rm -rf $LCPATH/$PROBLEM_NUMBER
 mkdir $LCPATH/$PROBLEM_NUMBER
 
 #insert template in the directory
-cp $LCPATH/template/main.go $LCPATH/$PROBLEM_NUMBER/
-cp $LCPATH/template/input.txt $LCPATH/$PROBLEM_NUMBER/
+cp $LCPATH/lc-template/main.go $LCPATH/$PROBLEM_NUMBER/
+cp $LCPATH/lc-template/input.txt $LCPATH/$PROBLEM_NUMBER/
 cd $PROBLEM_NUMBER
 
 #create a mod file
