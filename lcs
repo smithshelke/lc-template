@@ -5,6 +5,10 @@ cd $LCPATH
 
 #create a directory given a problem name/number
 PROBLEM_NUMBER=$1
+if [[ $# -eq 0 ]] ; then
+    echo 'Enter file name'
+    exit 0
+fi
 rm -rf $LCPATH/$PROBLEM_NUMBER
 mkdir $LCPATH/$PROBLEM_NUMBER
 
